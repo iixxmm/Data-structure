@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
+
 using namespace std; 
 vector<int> nums; 
+// treenode
 class treenode {
 	public:
 	int item; 
@@ -11,6 +13,7 @@ class treenode {
   	left = right = nullptr; 
   }
 };
+
 void pre(treenode* root) {
     if (root == nullptr) {
     	return; 
